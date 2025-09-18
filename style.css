@@ -1,0 +1,117 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    
+    body {
+        background: #f5f6fa;
+        color: #2c3e50;
+        line-height: 1.6;
+    }
+    .header-principal {
+        background: #2980b9; 
+        color: #fff;
+        padding: 10px 5px 10px 10px;
+        text-align: center;
+    }
+
+    .foto-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .foto-circular {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 4px solid #fff; 
+        object-fit: cover;
+    }
+    .texto-header h1 {
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+    }
+
+    .texto-header p {
+        font-size: 1.1rem;
+        max-width: 1000 px;
+        margin: 0 auto;
+    }
+
+
+    main {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    main section {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        color: #2980b9;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    ul {
+        margin: 10px 0 15px 20px;
+    }
+
+    .tabela-contato {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    .tabela-contato th,
+    .tabela-contato td {
+        text-align: left; 
+        padding: 8px 12px;
+        border-bottom: 1px solid #ccc; 
+    }
+
+    .tabela-contato a {
+        color: #2980b9; 
+        text-decoration: none;
+    }
+
+    .tabela-contato a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .foto-circular {
+            width: 120px;
+            height: 120px;
+        }
+
+        .texto-header h1 {
+            font-size: 2rem;
+        }
+
+        .texto-header p {
+            font-size: 1rem;
+        }
+
+        .tabela-contato th, .tabela-contato td {
+            padding: 8px 10px;
+        }
+    }
